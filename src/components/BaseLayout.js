@@ -31,12 +31,12 @@ export default class BaseLayout extends Component {
               </NavLink>
             </li>
             <li style={liStyle}>
-              <NavLink style={navLinkStyle} to="/create">
+              <NavLink style={navLinkStyle} to="/createpost">
                 Create Post
               </NavLink>
             </li>
             <li style={liStyle}>
-              <NavLink style={navLinkStyle} to="/show">
+              <NavLink style={navLinkStyle} to="/showposts">
                 <span>Show All Posts</span>
               </NavLink>
             </li>
